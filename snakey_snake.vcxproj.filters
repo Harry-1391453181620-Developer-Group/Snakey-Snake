@@ -29,11 +29,6 @@
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="snakey_snake.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-  </ItemGroup>
-  <ItemGroup>
     <ResourceCompile Include="snakey_snake.rc">
       <Filter>资源文件</Filter>
     </ResourceCompile>
@@ -51,5 +46,10 @@
   </ItemGroup>
   <ItemGroup>
     <Text Include="LICENSE.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="snakey_snake.cpp">
+      <Filter>头文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
